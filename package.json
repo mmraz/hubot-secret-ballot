@@ -1,16 +1,16 @@
 {
   "name": "hubot-secret-ballot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A script that allows users to create polls and vote on them by private messaging hubot",
   "main": "index.coffee",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rorysaur/hubot-secret-ballot.git"
+    "url": "git://github.com/mmraz/hubot-secret-ballot.git"
   },
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script"
   },
-  "author": "Rory Ou (http://github.com/rorysaur)",
+  "author": "Michael Mraz (http://github.com/mmraz)",
   "license": "MIT",
   "devDependencies": {
     "coffee-script": "~1.6",

@@ -20,7 +20,8 @@ module.exports = function(robot) {
   };
 
   var isPrivateMsg = function(msg) {
-    return msg.message.room === msg.message.user.name;
+//    return msg.message.room === msg.message.user.name;
+      return True;
   };
 
   /**
